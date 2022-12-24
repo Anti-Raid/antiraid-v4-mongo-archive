@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const moneySchema = mongoose.Schema({
 	GuildID: String,
@@ -6,4 +6,4 @@ const moneySchema = mongoose.Schema({
 	Content: String,
 });
 
-module.exports = mongoose.model('tags', moneySchema);
+module.exports = mongoose.model("tags", moneySchema);

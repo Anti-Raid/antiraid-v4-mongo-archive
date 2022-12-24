@@ -1,5 +1,5 @@
 /* eslint-disable no-inline-comments */
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const reqString = {
 	required: true,
@@ -38,4 +38,4 @@ const theservers = mongoose.Schema({
 	AntiRaid: String,
 });
 
-module.exports = mongoose.model('guilds', theservers);
+module.exports = mongoose.model("guilds", theservers);
